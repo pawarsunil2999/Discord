@@ -12,7 +12,7 @@
 <body>
 
   <!-- Wrapper -->
-  <section id="Wrapper" class="bg-[#000000] h-[100vh]">
+  <section id="Wrapper" >
   
   <!-- nav Section -->
   <nav class="relative bg-[#404EED] font-ggSans text-white ">
@@ -23,7 +23,7 @@
         <img src="./images/logo.svg" alt="">
       </a>
       <!-- flex -->
-      <div class="flex gap-x-6 font-semibold">
+      <div class="hidden xl:flex gap-x-6 font-semibold">
           <a href="" class="hover:underline" >Download</a>
           <a href="" class="hover:underline" >Nitro</a>
           <a href="" class="hover:underline" >Discover</a>
@@ -36,8 +36,42 @@
       <button class="bg-white text-black font-semibold text-[14px] py-2 px-4 font-[500] text-[#2c2f33] rounded-full " >
         Open Discord
       </button>
+      
+      <!-- Humbarget Menu -->
+      <div class="xl:visible hidden">
+        <i class="fa-solid fa-bars text-[23px]"></i>
+      </div>
     </div>
+
+    
   </nav>
+
+  <!-- hero section -->
+  <section class="relative bg-[#404EED] -mt-1 w-full ">
+    <img src="./images/Image0.svg" class="absolute z-10 bottom-0 top-auto">
+    <img src="./images/Image1.svg" class="absolute z-20 bottom-0 -right-[10%]">
+    <img src="./images/Image2.svg" class="absolute z-20 bottom-0 -left-[14%]">
+    
+    <div class="text-white max-w-[1200px] mx-auto text-center h-[550px] flex flex-col gap-5 pt-[120px]">
+      <div class="font-[800] text-[56px] font-[GintoNord] z-20 ">Imagine a place...</div>
+      <div class="z-20 w-[70%] mx-auto text-[20px] font-[gg sans] font-[450] ">
+          ...where you can belong to a school club, 
+          a gaming group, or a worldwide art community. 
+          Where just you and a handful of friends can
+          spend time together. A place that makes it easy 
+          to talk every day and hang out more often.</div>
+      <div class="flex gap-10 justify-center items-center font-[500] z-20 ">
+        <button class="relative bg-white text-black p-3 px-7 rounded-full">
+          <i class="fa-solid fa-download mr-2"></i>
+          Download for Windows
+        </button >
+        <button class="bg-[#23272a] text-white p-3 px-7 rounded-full">
+          Open Discord in your browser
+        </button>
+      </div>
+
+    </div>
+  </section>
 
 
 
